@@ -17,94 +17,94 @@ This is a full-featured task management platform with:
 ### **Week 1 — Python Basics & CLI**
 
 #### **Day 1: Setup Environment**
-- [ ] Download Python from python.org (version 3.9+)
-- [ ] Install Python (check "Add to PATH" during installation)
-- [ ] Open terminal/command prompt, type `python --version` to verify
-- [ ] Download VSCode from code.visualstudio.com
-- [ ] Install Python extension in VSCode (search "Python" in extensions)
-- [ ] Install Git from git-scm.com
-- [ ] Create folder `task_platform` on your desktop
-- [ ] Open folder in VSCode (File → Open Folder)
-- [ ] Create file `hello.py`
-- [ ] Type: `print("Hello World")`
-- [ ] Run: Right-click → "Run Python File in Terminal"
-- [ ] **Success**: You see "Hello World" printed
+- [x] Download Python from python.org (version 3.9+)
+- [x] Install Python (check "Add to PATH" during installation)
+- [x] Open terminal/command prompt, type `python --version` to verify
+- [x] Download VSCode from code.visualstudio.com
+- [x] Install Python extension in VSCode (search "Python" in extensions)
+- [x] Install Git from git-scm.com
+- [x] Create folder `task_platform` on your desktop
+- [x] Open folder in VSCode (File → Open Folder)
+- [x] Create file `hello.py`
+- [x] Type: `print("Hello World")`
+- [x] Run: Right-click → "Run Python File in Terminal"
+- [x] **Success**: You see "Hello World" printed
 
 #### **Day 2: Variables & Data Types**
-- [ ] Create file `variables.py`
-- [ ] Learn about strings: `name = "John"`
-- [ ] Learn about integers: `age = 25`
-- [ ] Learn about booleans: `is_active = True`
-- [ ] Learn about floats: `height = 5.9`
-- [ ] Print each variable: `print(name)`, `print(age)`, etc.
-- [ ] Try `print(f"My name is {name} and I am {age} years old")`
-- [ ] Run the file and see output
-- [ ] **Success**: All variables print correctly
+- [x] Create file `variables.py`
+- [x] Learn about strings: `name = "John"`
+- [x] Learn about integers: `age = 25`
+- [x] Learn about booleans: `is_active = True`
+- [x] Learn about floats: `height = 5.9`
+- [x] Print each variable: `print(name)`, `print(age)`, etc.
+- [x] Try `print(f"My name is {name} and I am {age} years old")`
+- [x] Run the file and see output
+- [x] **Success**: All variables print correctly
 
 #### **Day 3: Lists & Dictionaries**
-- [ ] Create file `data_structures.py`
-- [ ] Create a list: `fruits = ["apple", "banana", "orange"]`
-- [ ] Print the list: `print(fruits)`
-- [ ] Access first item: `print(fruits[0])`
-- [ ] Create a dictionary: `person = {"name": "John", "age": 25}`
-- [ ] Print dictionary: `print(person)`
-- [ ] Access dictionary value: `print(person["name"])`
-- [ ] Create list of task dictionaries:
+- [x] Create file `data_structures.py`
+- [x] Create a list: `fruits = ["apple", "banana", "orange"]`
+- [x] Print the list: `print(fruits)`
+- [x] Access first item: `print(fruits[0])`
+- [x] Create a dictionary: `person = {"name": "John", "age": 25}`
+- [x] Print dictionary: `print(person)`
+- [x] Access dictionary value: `print(person["name"])`
+- [x] Create list of task dictionaries:
   ```python
   tasks = [
       {"title": "Task 1", "status": "pending"},
       {"title": "Task 2", "status": "completed"}
   ]
   ```
-- [ ] Print all task titles using a loop:
+- [x] Print all task titles using a loop:
   ```python
   for task in tasks:
       print(task["title"])
   ```
-- [ ] **Success**: You see both task titles printed
+- [x] **Success**: You see both task titles printed
 
 #### **Day 4: Loops & Conditionals**
-- [ ] Create file `loops_conditions.py`
-- [ ] Copy your tasks list from Day 3
-- [ ] Write a for loop to print only tasks starting with "T":
+- [x] Create file `loops_conditions.py`
+- [x] Copy your tasks list from Day 3
+- [x] Write a for loop to print only tasks starting with "T":
   ```python
   for task in tasks:
       if task["title"].startswith("T"):
           print(task["title"])
   ```
-- [ ] Try a while loop:
+- [x] Try a while loop:
   ```python
   count = 0
   while count < 3:
       print(f"Count is: {count}")
       count += 1
   ```
-- [ ] Add more tasks to test: `{"title": "Buy groceries", "status": "pending"}`
-- [ ] **Success**: Only tasks starting with "T" are printed
+- [x] Add more tasks to test: `{"title": "Buy groceries", "status": "pending"}`
+- [x] **Success**: Only tasks starting with "T" are printed
 
 #### **Day 5: Functions**
-- [ ] Create file `functions.py`
-- [ ] Create empty tasks list: `tasks = []`
-- [ ] Write function to add task:
+- [x] Create file `functions.py`
+- [x] Create empty tasks list: `tasks = []`
+- [x] Write function to add task:
   ```python
   def add_task(title):
       new_task = {"title": title, "status": "pending"}
       tasks.append(new_task)
       print(f"Added task: {title}")
   ```
-- [ ] Write function to show all tasks:
+- [x] Write function to show all tasks:
   ```python
   def show_tasks():
       for i, task in enumerate(tasks):
           print(f"{i+1}. {task['title']} - {task['status']}")
   ```
-- [ ] Test your functions:
+- [x] Test your functions:
   ```python
   add_task("Learn Python")
   add_task("Build API")
   show_tasks()
   ```
-- [ ] **Success**: Tasks are added and displayed correctly
+- [x] **Success**: Tasks are added and displayed correctly
 
 #### **Day 6: File Input/Output**
 - [ ] Create file `file_operations.py`
